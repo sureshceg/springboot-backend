@@ -1,0 +1,22 @@
+# Build output
+target/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+.factorypath
+
+# OS / logs
+.DS_Store
+*.log
+
+# Secrets
+.env
+application-local.properties
+application-local.yml
